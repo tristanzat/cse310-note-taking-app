@@ -1,32 +1,25 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a note-taking app developed using TypeScript. It uses a React frontend connected to a NestJS API backend to
+locally save notes, implementing CRUD to add and modify the data that is stored locally.
 
-{Provide a description of the software that you wrote to demonstrate the TypeScript language.}
+I wrote this software so that I could understand TypeScript better and understand how it is most commonly used in the software development industry today (i.e. Vite and REST APIs).
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/fxsfGdKvD_4)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I utilized VS Code to develop this. Running it requires Node.js.
 
-{Describe the programming language that you used and any libraries.}
+This was coded mainly in TypeScript. I utilized Vite and NestJS for the web frontend and API backend respectively.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [NestJS Documentation](https://docs.nestjs.com/)
+- [Vite Documentation](https://vite.dev/guide/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Move data storage to a hosted server instead of local
+- Improve frontend UI
